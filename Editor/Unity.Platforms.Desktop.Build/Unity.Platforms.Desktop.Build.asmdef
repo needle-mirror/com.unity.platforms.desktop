@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Platforms.Desktop.Build",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Internals",
+		"Unity.Platforms.Build",
+        "Unity.Properties",
+        "Unity.Properties.Editor",
+        "Unity.Serialization"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
