@@ -1,7 +1,7 @@
 {
   "name": "com.unity.platforms.desktop",
   "displayName": "Platforms Desktop",
-  "version": "0.2.2-preview.8",
+  "version": "0.2.2-preview.9",
   "unity": "2019.3",
   "unityRelease": "0f1",
   "description": "Provides platform and build specific features for all desktop based platforms.",
@@ -11,12 +11,12 @@
     "desktop"
   ],
   "dependencies": {
-    "com.unity.platforms": "0.2.2-preview.8"
+    "com.unity.platforms": "0.2.2-preview.9"
   },
   "repository": {
-    "footprint": "307521c69a4404eb2b6b3fabd5cce2970a98f170",
+    "footprint": "5cdfafb43aa93b74a7fae4e60b6b087b47f0c847",
     "type": "git",
     "url": "https://github.com/Unity-Technologies/dots-platforms.git",
-    "revision": "d685624322220b3103b43269e0759d7796da54e7"
+    "revision": "828467ce4537f11d8c9807e92e92577dc665d1d7"
   }
 }
