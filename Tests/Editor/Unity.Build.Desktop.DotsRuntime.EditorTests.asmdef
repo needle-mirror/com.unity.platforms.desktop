@@ -1,7 +1,7 @@
 {
-    "name": "Unity.Platforms.Desktop.EditorTests",
+    "name": "Unity.Build.Desktop.DotsRuntime.EditorTests",
     "references": [
-        "Unity.Platforms"
+        "Unity.Build.DotsRuntime"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
