@@ -1,4 +1,4 @@
-﻿#if ((UNITY_WINDOWS || UNITY_MACOSX || UNITY_LINUX || UNITY_EDITOR))
+﻿#if (UNITY_WINDOWS || UNITY_MACOSX || UNITY_LINUX)
 using System.Runtime.InteropServices;
 
 namespace Unity.Platforms
@@ -17,6 +17,8 @@ namespace Unity.Platforms
                 if (runLoopDelegate(timestampInSeconds) == false)
                     break;
             }
+
+            PlatformEvents.SendQuitEvent(null, new QuitEvent());
         }
     }
 }
